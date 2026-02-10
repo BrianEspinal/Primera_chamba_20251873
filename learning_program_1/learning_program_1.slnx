@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CalculadoraDescuento/CalculadoraDescuento.csproj" />
+  <Project Path="CalculadoraPromedio/CalculadoraPromedio.csproj" />
+  <Project Path="Program_1/DatosEstudiantes.csproj" />
+  <Project Path="Termometro/Termometro.csproj" />
+</Solution>

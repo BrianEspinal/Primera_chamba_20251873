@@ -7,9 +7,9 @@ do // estructura de control principal
     // ponemos la interfaz de la tineda
     Console.WriteLine("Bienvenido a Electronica Espinal");
 Console.WriteLine("!TENEMOS GRANDES OFERTAS!");
-Console.WriteLine("PRODUCTOS > 340$ [30% OFF]");
-Console.WriteLine("PRODUCTOS > 120$ [20% OFF]");
-Console.WriteLine("PRODUCTOS > 60 $ [5% OFF]");
+Console.WriteLine("PRODUCTOS > 340$ USD [30% OFF]");
+Console.WriteLine("PRODUCTOS > 120$ USD [20% OFF]");
+Console.WriteLine("PRODUCTOS > 60 $ USD [5% OFF]");
 
 Console.WriteLine("Seleccione el producto deseado:");
     var producto = Console.ReadLine();
@@ -33,9 +33,9 @@ else if (precio >= 60)
 
     double total = precio - descuento;
 
-Console.WriteLine($"El precio de {producto} es de:{precio}$");
-Console.WriteLine($"este monto aplica para un descuento de {descuento}$");
-Console.WriteLine($"precio final mas descuento {total}$");
+Console.WriteLine($"El precio de {producto} es de:{precio}$ USD");
+Console.WriteLine($"este monto aplica para un descuento de {descuento}$ USD");
+Console.WriteLine($"precio final mas descuento {total}$ USD");
 
     // aqui me puse crreativo e hice una condicional que le permita al usuario seguir comprando si desea
     ConsoleKey tecla;

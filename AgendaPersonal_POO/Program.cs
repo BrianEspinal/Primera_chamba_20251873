@@ -1,7 +1,7 @@
 ﻿
 Console.WriteLine("╔══════════════════════════════════╗");
 Console.WriteLine("║    Bienvenido a tu Agenda POO    ║");
-Console.WriteLine("║    developed by: RacoonusCode    ║");
+Console.WriteLine("║    developed by: Racoon_Code    ║");
 Console.WriteLine("╚══════════════════════════════════╝");
 Console.WriteLine("║         Version. 2025-1873       ║");
 Console.WriteLine("╚══════════════════════════════════╝");
